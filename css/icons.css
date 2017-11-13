@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "font-custom";
+  src:url("../fonts/font-custom.eot");
+  src:url("../fonts/font-custom.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/font-custom.woff") format("woff"),
+    url("../fonts/font-custom.ttf") format("truetype"),
+    url("../fonts/font-custom.svg#font-custom") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "font-custom" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "font-custom" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\e000";
+}
+.icon-search:before {
+  content: "\e001";
+}
+.icon-add-friend:before {
+  content: "\e002";
+}
+.icon-messenger:before {
+  content: "\e003";
+}
+.icon-globe:before {
+  content: "\e004";
+}
+.icon-question-circle:before {
+  content: "\e005";
+}
+.icon-caret-down:before {
+  content: "\e006";
+}
+.icon-unlock:before {
+  content: "\e007";
+}
+.icon-info-circled:before {
+  content: "\e008";
+}
+.icon-info:before {
+  content: "\e009";
+}
+.icon-cross:before {
+  content: "\e00a";
+}
+.icon-plus:before {
+  content: "\e00b";
+}
+.icon-file:before {
+  content: "\e00c";
+}
+.icon-share:before {
+  content: "\e00d";
+}
+.icon-checkmark:before {
+  content: "\e00e";
+}

@@ -1,0 +1,601 @@
+*
+{
+	box-sizing: border-box;
+}
+
+ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0
+}
+
+body
+{
+	overflow: hidden;
+	text-transform: capitalize;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	background-color: #E9EBEE;
+}
+
+/*start site top header*/
+
+header
+{
+	width: 100%;
+	background-color: #4267B2;
+	color: #fff;
+	padding: 0 0 5px 30px;
+	overflow: hidden;
+}
+
+form
+{
+	display: inline-block;
+}
+
+header form input
+{
+	width: 440px;
+	padding: 5px;
+	margin-top: 10px;
+	border: none;
+}
+
+header form .icon-facebook
+{
+	margin: 0 5px 0 35px;
+	position: relative;
+	top: 8px;
+	font-size: 26px;
+	cursor: pointer;
+}
+
+.icon-search
+{
+	font-size: 15px;
+	color: #888;
+	position: relative;
+	left: -30px;
+	cursor: pointer;
+}
+
+header div img
+{
+	width: 25px;
+	border-radius: 50%;
+	margin: 10px 0 0 80px;
+	cursor: pointer;
+}
+
+header div span
+{
+	position: relative;
+	top: -5px;
+	margin-left: 5px ;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+header div .num
+{
+	background-color: #2C4578;
+	padding: 3px;
+	font-size: 14px;
+	margin: 0 25px 0 0;
+	border-radius: 20%
+}
+
+.icon-add-friend,.icon-messenger,.icon-globe,.icon-question-circle
+		,.icon-caret-down,.icon-question-circle
+{
+	font-size: 24px;
+	color: #0D1524;
+	margin: 0 5px 0 0;
+	cursor: pointer;
+}
+
+.icon-add-friend
+{
+	margin-left: 90px
+}
+
+.icon-question-circle
+{
+	margin-left: 15px
+}
+
+/*end site top header*/
+
+/**************************************************************/
+
+/*start left side-bar*/
+.left-side-bar
+{
+	width: 19%;
+	height: 100%;
+	background-color: #E9EBEE;
+	padding-left: 50px
+}
+
+.left-side-bar h1
+{
+	font-size: 22px;
+	font-weight: normal;
+	margin: 10px 0 5px;
+	cursor: pointer;
+}
+
+.left-side-bar span
+{
+	color: #90949C
+}
+
+.left-side-bar span i
+{
+	position: relative;
+	top: 3px
+}
+
+.left-side-bar ul li
+{
+	padding: 7px 15px;
+	cursor: pointer;
+}
+
+.left-side-bar ul li:hover,.active-li
+{
+	background-color: #F6F7F9;
+	font-weight: bold;
+}
+
+.left-side-bar form
+{
+	position: relative;
+}
+
+.left-side-bar input
+{
+	width: 90%;
+	border: none;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+}
+
+.left-side-bar .icon-search
+{
+	position: absolute;
+	left: 80%;
+	top: 5px
+}
+
+.groups
+{
+	position: relative;
+}
+
+.groups li
+{
+	font-size: 14px
+}
+
+.groups li span
+{
+	position: absolute;
+	right: 10px;
+	border: 1px solid rgba(0, 0, 0, .15);
+	padding: 2px 3px;
+}
+
+.left-side-bar ul li img
+{
+	width: 20px
+}
+
+/*end left side-bar*/
+
+/**************************************************************/
+
+/*start main section*/
+.main-section
+{
+	width: 64%;
+	height: 100%;
+	background-color: #E9EBEE;
+	margin-right: 1%;
+}
+
+.cover-img
+{
+	background-image: url("../images/cover.jpg");
+	background-size: cover;
+	background-position: 0px -80px;
+	background-repeat: no-repeat;
+	height: 250px
+}
+
+.main-section section div
+{
+	background-color: #fff;
+	position: relative;
+	padding: 10px 7px;
+}
+
+.main-section section p
+{
+	color: #fff;
+	font-size: 16px;
+	position: absolute;
+	top: -50px;
+	left: 10px
+}
+
+.main-section section select
+{
+	padding: 8px 10px 6px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-transform: capitalize;
+	font-size: 14px;
+	background-color: #f6f7f9;
+	color: #4b4f56;
+	cursor: pointer;
+}
+
+.more-options,.notification
+{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.more-options::-ms-expand,.notification::-ms-expand
+{
+	display: none;
+}
+
+.main-section section .notification
+{
+	padding: 8px 10px 6px 25px;
+	background: #f6f7f9 url("../images/checkmark.png") no-repeat left center;
+	background-size: 25px;	
+}
+
+.main-section section .more-options
+{
+	background: #f6f7f9 url("../images/more.png") no-repeat left center;
+	background-size: 25px;
+	padding: 8px 20px 6px;
+	background-position: 7px 2px;
+	position: relative;
+	left: -10px;
+}
+
+.main-section section button
+{
+	background-color: #f6f7f9;
+	padding: 5px 15px 5px 10px;
+	border: 1px solid #b0b2b7;
+	color: #4b4f56;
+	cursor: pointer;
+}
+
+.main-section section button .icon-share
+{
+	color: #6A7180;
+	position: relative;
+	top: 4px
+}
+/*************************************************/
+.post
+{
+	margin-top: 10px;
+	width: 60%
+}
+
+.post ul li
+{
+	display: inline;
+	margin: 3px;
+	font-size: 14px;
+	color: #365899;
+	cursor: pointer;
+}
+
+.post ul li img
+{
+	position: relative;
+	top: 4px;
+	margin-right: 2px;
+	margin-left: 4px;
+	width: 17px
+}
+
+.post ul li:last-of-type img
+{
+	background-color: #999;
+	padding: 2px
+}
+
+.post div
+{
+	overflow: hidden;
+}
+
+.post div img
+{
+	border-radius: 50%;
+	width: 40px;
+	margin: 5px 20px 0px 5px;
+	float: left;
+}
+
+.post div textarea
+{
+	resize: none;
+	float: left;
+	width: 85%;
+	height: 50px;
+	padding: 10px;
+	border: none;
+}
+
+.post div + ul li button
+{
+	border-radius: 20px;
+	padding: 1px 20px 7px;
+	border: none;
+}
+
+.post div + ul li button:hover
+{
+	background-color: #DDDFE2;
+	cursor: pointer;
+}
+
+.post ul:last-of-type li button img
+{
+	width: 20px;
+	position: relative;
+	left: -10px;
+	top: 4px
+}
+
+.post ul:last-of-type li:last-of-type button img
+{
+	left: -9px;
+	background-color: transparent;
+}
+
+.post ul:last-of-type li:last-of-type button
+{
+	width: 45px
+}
+
+/*********************************************/
+.linked-groups
+{
+	width: 38%;
+	margin-top: 10px;
+}
+
+.linked-groups > div
+{
+	overflow: hidden;
+}
+
+.linked-groups span
+{
+	color: #999;
+	padding-right: 40px ;
+	padding-left: 10px ;
+	font-weight: bold;
+}
+
+.linked-groups i
+{
+	font-size: 20px;
+	color: #999;
+	position: absolute;
+	right: 15px
+}
+
+.linked-groups div img
+{
+	border-radius: 50%;
+	width: 25%;
+	float: left;
+	margin-top: 15px
+}
+
+.linked-groups div div
+{
+	float: left;
+	width: 75%;
+}
+
+.linked-groups div div h3
+{
+	margin: 0 0 10px 0;
+	cursor: pointer;
+}
+
+.linked-groups div div button
+{
+	width: 100%;
+	padding: 5px;
+	background-color: #365899;
+	color: #fff;
+	font-weight: bold;
+}
+
+/*******************************************************/
+.main-section section .pending-req
+{
+	width:60%;
+	margin: 20px 0 0 0;
+	border: 2px solid #457BF1;
+	padding: 0 2px 4px 0;
+	color: #5B70dd;
+}
+
+.pending-req i:first-of-type
+{
+	color: #fff;
+	background-color: #457BF1;
+	padding: 7px 6px 1px 2px;
+	font-size: 26px;
+	position: relative;
+	top: 5px
+}
+
+.pending-req i:last-of-type
+{
+	color: #DDDFE2;
+	font-size: 24px;
+	position: relative;
+	top: 5px;
+	left: 195px;
+	cursor: pointer;
+}
+
+/*******************************************************/
+.add-members
+{
+	width:38%;
+	height: 200px;
+	margin-top: 10px
+}
+
+.add-members span
+{
+	color: #90949c;
+	font-size: 14px;
+}
+
+.add-members form
+{
+	position: relative;
+}
+
+.add-members form input
+{
+	width: 98%;
+	padding:5px 25px;
+	margin-bottom: 10px
+}
+
+.add-members form i
+{
+	position: absolute;
+	top: 8px;
+	left: 5px;
+	color: #90949c;
+	cursor: pointer;
+}
+
+.add-members form img
+{
+	position: absolute;
+	top: 8px;
+	right: 15px;
+}
+
+.add-members form span:first-of-type
+{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.add-members form span:last-of-type
+{
+	font-size: 14px;
+	color: #4267b2;
+	position: absolute;
+	right: 10px;
+	cursor: pointer;
+}
+/********************************************************/
+.right-side-bar
+{
+	width: 16%;
+	height: 100%;
+	background-color: #E9EBEE;
+	position: relative;
+	border-left: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.right-side-bar ul
+{
+	margin-left: 20px;
+}
+
+.right-side-bar ul li
+{
+	position: relative;
+}
+
+.right-side-bar img
+{
+	border-radius: 50%;
+	width: 40px;
+}
+
+.right-side-bar p
+{
+	display: inline;
+	position: relative;
+	top: -20px;
+	left: 5px
+}
+
+.right-side-bar span
+{
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	border:1px solid rgba(0, 0, 0, 0.15);
+}
+
+.chat-off
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: rgba(233,234,239,.75);
+	top: 0;
+	left: 0;
+
+}
+
+.trun-on-chat
+{
+	position: absolute;
+	top: 100%;
+	width: 100%;
+	font-size: 12px;
+	background-color: #fff;
+	height: 30px;
+}
+
+.trun-on-chat span:first-of-type
+{
+	color: #4267b2;
+	left: 4%;
+	top: 7px;
+}
+
+.trun-on-chat span:last-of-type
+{
+	left: 40%;
+	top: 7px;
+}
+
+.fl-left
+{
+	float: left;
+}
+
+.fl-right
+{
+	float: right;
+}
